@@ -1,0 +1,21 @@
+{
+  "name": "loner/stream-stateful",
+  "description": "有连接状态的流服务组件，用于构建有连接状态的流服务端及客户端",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "loner/stream": "^1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shen-da",
+      "email": "747472991@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Loner\\Stream\\": "src/"
+    }
+  }
+}
